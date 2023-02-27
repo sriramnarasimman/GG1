@@ -1,0 +1,238 @@
+.max-container {
+    max-width: 1160px;
+    margin: auto;
+}
+.product-banner img {
+    width: 100%;
+}
+.product-banner {
+    position: relative;
+}
+.product-banner:after {
+    content: '';
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 29.36%, rgba(0, 0, 0, 0.73) 100%);
+    position: absolute;
+    height: 84%;
+    bottom: 0;
+    width: 100%;
+}
+.banner-center {
+    position: absolute;
+    bottom: 20%;
+    left: 6%;
+    z-index: 11;
+}
+.banner-center h4 {
+    color: #fff;
+    font-family: 'Rubik-Medium';
+    font-size: 50px;
+}
+
+.product-lft h4 {
+    color: #06163a;
+    font-size: 26px;
+    font-family: 'Rubik-Regular';
+    padding: 0 0 10px 0;
+}
+.product-lft ul {
+    padding-left: 0px;
+    list-style-type: none;
+}
+.product-lft ul li {
+    border-bottom: 1px solid #ededed;
+    padding: 1px 0px;
+    cursor: pointer;
+}
+.product-lft ul li a {
+    padding: 10px 10px 10px 0;
+    color: #06163a;
+    text-decoration: none !important;
+    width: 100%;
+    display: block;
+}
+.product-lft ul li:hover a, .product-lft ul li a.active {
+    color: #ff5e14;
+}
+.prod-lft-img img {
+    width: 100%;
+}
+.product-rgt h4 {
+    color: #06163a;
+    font-size: 48px;
+    font-family: 'Rubik-Regular';
+    margin-bottom: 20px;
+}
+.product-rgt h4 span {
+    font-family: 'Rubik-Bold';
+}
+.product-rgt p {
+    color: #3f485d;
+    line-height: 24px;
+}
+.product-rgt h5 {
+    font-size: 26px;
+    color: #06163a;
+    font-family: 'Rubik-Medium';
+    margin-top: 45px;
+    margin-bottom: 18px;
+}
+.product-rgt ul li {
+    color: #3f485d;
+    margin-bottom: 3px;
+}
+.product-rgt .prod-image-list {
+    padding: 10px;
+}
+.product-rgt .prod-image-list img {
+    width: 100%;
+    cursor: pointer;
+}
+
+.prod-brochure {
+    margin-top: 3%;
+}
+.prod-brochure h4 {
+    color: #06163a;
+    font-size: 48px;
+    font-family: 'Rubik-Regular';
+    margin-bottom: 20px;
+}
+.prod-brochure h4 span {
+    font-family: 'Rubik-Bold';
+}
+.prod-brochure .download-list {
+    background: rgba(242,242,242, 1);
+    margin-bottom: 20px;
+}
+.download-list {
+    padding-top: 30px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+}
+.download-btn a {
+    font-size: 14px;
+    line-height: 16px;
+    padding: 16px 32px;
+    background: #075e91;
+    color: #fff;
+    box-shadow: 0 0 25px -14px #075e91;
+    text-decoration: none;
+    transition: color .3s ease-out,border .3s ease-out,background .3s ease-out,box-shadow .3s ease-out !important;
+}
+.download-btn {
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+.download-btn a img {
+    width: 20px;
+    margin-right: 6px;
+}
+.download-btn a:hover {
+    background: #000;
+    color: #fff;
+    box-shadow: 0 0 25px -14px #000;
+}
+.download-list h6 {
+    color: #075e91;
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+.download-list p {
+    color: #3f485d;
+    font-size: 16px;
+    margin-bottom: 16px;
+    min-height: 50px;
+}
+.chem-list ul {
+    padding-left: 0px;
+    margin-top: 5%;
+}
+.chem-list ul li a {
+    color: #06163a !important;
+    font-size: 16px;
+}
+.chem-list ul li:hover a {
+    color: #ff5e14 !important;
+}
+
+@media (max-width: 600px) {
+    .banner-center h4 {
+        font-size: 16px;
+    }
+    .product-rgt h4 {
+        font-size: 20px;
+    }
+    .prod-brochure h4 {
+        font-size: 20px;
+    }
+    .product-lft {
+        margin: auto;
+    }
+    .product-rgt {
+        margin-top: 8%;
+    }
+    .product-rgt ul {
+        padding-left: 15px;
+    }
+    .product-rgt h5 {
+        font-size: 18px;
+        margin-top: 25px;
+        margin-bottom: 10px;
+    }
+    .download-list h6 {
+        font-size: 18px;
+    }
+    .download-btn {
+        margin-top: 28px;
+        margin-bottom: 46px;
+    }
+    .download-btn a {
+        padding: 13px 20px;
+    }
+}
+@media screen and (min-width: 600px) and (max-width: 767px) {
+    .banner-center h4 {
+        font-size: 35px;
+    }
+    .product-rgt h4 {
+        font-size: 35px;
+    }
+    .prod-brochure h4 {
+        font-size: 35px;
+    }
+    .product-lft {
+        margin: auto;
+    }
+    .product-rgt {
+        margin-top: 5%;
+    }
+}
+@media screen and (min-width: 767px) and (max-width: 992px) {
+    .banner-center h4 {
+        font-size: 35px;
+    }
+    .product-rgt h4 {
+        font-size: 35px;
+    }
+    .prod-brochure h4 {
+        font-size: 35px;
+    }
+    .product-lft {
+        margin: auto;
+    }
+    .product-rgt {
+        margin-top: 5%;
+    }
+}
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+    .banner-center h4 {
+        font-size: 35px;
+    }
+    .product-rgt h4 {
+        font-size: 35px;
+    }
+    .prod-brochure h4 {
+        font-size: 35px;
+    }
+}

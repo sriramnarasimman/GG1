@@ -1,0 +1,141 @@
+.product-banner {
+    position: relative;
+    height: 180px;
+    border-bottom: 1px solid #ededed;
+}
+.banner-center {
+    position: absolute;
+    left: 6%;
+    z-index: 11;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+.banner-center h4 {
+    color: #000;
+    font-family: 'Rubik-Medium';
+    font-size: 60px;
+    text-align: center;
+}
+
+/******** Video Section ********/
+.video-banner {
+    height: 450px;
+}
+.video-banner video {
+    height: 450px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.logistics-section h4 {
+    font-size: 40px;
+    text-align: center;
+    margin: 3% auto 4%;
+    color: #06163a;
+}
+.logistics-lft img {
+    width: 100%;
+}
+.logistics-rgt p {
+    color: #3f485d;
+    font-size: 20px;
+    line-height: 1.5em;
+    text-align: justify;
+    margin-bottom: 20px;
+}
+.logistics-rgt-p p {
+    color: #3f485d;
+    font-size: 18px;
+    line-height: 24px;
+    text-align: justify;
+    margin-bottom: 20px;
+}
+.logistics-map h4 {
+    font-size: 40px;
+    text-align: center;
+    margin: 5% auto 4%;
+    color: #06163a;
+}
+.logistics-map img {
+    width: 80%;
+    margin: auto;
+    display: block;
+}
+.logistics-chose h4 {
+    font-size: 40px;
+    text-align: center;
+    margin: 5% auto 4%;
+    color: #06163a;
+}
+.logistics-chose-list img {
+    width: 45%;
+    margin: auto;
+    display: block;
+}
+.logistics-bst h4 {
+    font-size: 40px;
+    text-align: center;
+    margin: 5% auto 4%;
+    color: #06163a;
+}
+
+.logistics-gallery h4 {
+    font-size: 40px;
+    text-align: center;
+    margin: 5% auto 4%;
+    color: #06163a;
+}
+.logistics-gallery-list img {
+    width: 100%;
+    cursor: pointer;
+    margin-bottom: 12%;
+}
+
+@media (max-width: 600px) {
+
+    .banner-center h4 {
+        font-size: 30px;
+    }
+    .product-banner {
+        height: 115px;
+    }
+    .logistics-section h4, .logistics-gallery h4, .logistics-bst h4, .logistics-chose h4, .logistics-map h4 {
+        font-size: 22px;
+    }
+    .video-banner, .video-banner video {
+        height: 230px;
+    }
+    .logistics-chose-list img {
+        width: 60%;
+        margin-bottom: 15%;
+    }
+    .logistics-rgt p {
+        font-size: 16px;
+    }
+    .logistics-rgt-p p {
+        font-size: 14px;
+    }
+}
+@media screen and (min-width: 600px) and (max-width: 992px) {
+
+    .banner-center h4 {
+        font-size: 45px;
+    }
+    .logistics-section h4, .logistics-gallery h4, .logistics-bst h4, .logistics-chose h4, .logistics-map h4 {
+        font-size: 30px;
+    }
+    .video-banner, .video-banner video {
+        height: 356px;
+    }
+    .logistics-chose-list img {
+        width: 60%;
+    }
+}
+
+
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+    .logistics-section h4, .logistics-gallery h4, .logistics-bst h4, .logistics-chose h4, .logistics-map h4 {
+        font-size: 30px;
+    }
+}

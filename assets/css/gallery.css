@@ -1,0 +1,52 @@
+.product-banner {
+    position: relative;
+    height: 180px;
+    border-bottom: 1px solid #ededed;
+}
+.banner-center {
+    position: absolute;
+    left: 6%;
+    z-index: 11;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+.banner-center h4 {
+    color: #000;
+    font-family: 'Rubik-Medium';
+    font-size: 60px;
+    text-align: center;
+}
+
+/******** Gallery Section ********/
+.gallery-section {
+    margin-top: 3%;
+    margin-bottom: 5%;
+}
+.gallery-list img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+@media (max-width: 600px) {
+
+    .banner-center h4 {
+        font-size: 30px;
+    }
+    .product-banner {
+        height: 115px;
+    }
+    .gallery-section { 
+        padding: 0px;
+    }
+    .gallery-grid {
+        padding: 0px;
+    }
+}
+@media screen and (min-width: 600px) and (max-width: 992px) {
+
+    .banner-center h4 {
+        font-size: 45px;
+    }
+}
